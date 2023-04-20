@@ -64,3 +64,15 @@ spriteTypes = {
 		texturefile = "gfx/leaders/DON/DON_ivan_polozkov.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_DON_igor_strelkov"
+		texturefile = "gfx/leaders/DON/DON_igor_strelkov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_DON_august_kruse"
+		texturefile = "gfx/leaders/DON/DON_august_kruse.dds"
+	}
+}

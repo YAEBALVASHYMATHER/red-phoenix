@@ -40,4 +40,42 @@ characters = {
 			}
 		}
 	}
+	DON_august_kruse = {
+		name = DON_august_kruse
+		portraits = {
+			civilian = {
+				large = "GFX_DON_august_kruse"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+	DON_igor_strelkov = {
+		name = DON_igor_strelkov
+		portraits = {
+			army={
+				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
+			}
+			army={
+				large="GFX_DON_igor_strelkov"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+				
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }
