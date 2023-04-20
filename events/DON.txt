@@ -28,10 +28,7 @@ country_event = {
         name = don.2.a
         declare_war_on = {
 			target = SOV
-		}
-		set_division_template_lock = {
-			division_template = "96-ой Казачий Полк"
-			is_locked = no
+			type = take_state
 		}
     }
 	option = {
