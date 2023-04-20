@@ -1,0 +1,63 @@
+add_namespace = don_border_conflict
+add_namespace = don_border_conflict_hidden
+country_event = {
+    id = don_border_conflict.1
+    title = don_border_conflict.1.t
+    desc = don_border_conflict.1.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = don_border_conflict.1.a
+		if = {
+			limit = {
+				tag = SOV
+			}
+			finalize_border_war = {
+				defender_win = yes
+				attacker = 218
+				defender = 910
+			}
+			army_experience = 5
+		}
+		else_if = {
+			limit = { 
+				tag = DON
+			}
+			finalize_border_war = {
+				attacker_win = yes
+				attacker = 218
+				defender = 910
+			}
+			DON = {
+				set_state_owner = 910
+				set_state_controller = 910
+			}
+		}
+        
+    }
+}
+country_event = {
+    id = don_border_conflict.2
+    title = don_border_conflict.2.t
+    desc = don_border_conflict.2.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = don_border_conflict.2.a
+        
+    }
+}
+country_event = {
+    id = don_border_conflict.3
+    title = don_border_conflict.3.t
+    desc = don_border_conflict.3.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = don_border_conflict.3.a
+        
+    }
+}
