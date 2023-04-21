@@ -1,5 +1,5 @@
 focus_tree = {
-	id = DON
+	id = DON_tree
 	country = {
 		factor = 0
 		modifier = {
