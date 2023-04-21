@@ -18,7 +18,13 @@ country_event = {
 				attacker = 218
 				defender = 910
 			}
-			army_experience = 5
+			hidden_effect = {
+				army_experience = 5
+				add_stability = 0.02
+				add_war_support = 0.04
+				add_political_power = 15
+			}
+			custom_effect_tooltip = We_win_tt
 		}
 		else_if = {
 			limit = { 
@@ -29,10 +35,13 @@ country_event = {
 				attacker = 218
 				defender = 910
 			}
-			DON = {
-				set_state_owner = 910
-				set_state_controller = 910
+			hidden_effect = {
+				DON = {
+					set_state_owner = 910
+					set_state_controller = 910
+				}
 			}
+			custom_effect_tooltip = We_win_tt
 		}
         
     }
@@ -46,7 +55,31 @@ country_event = {
     
     option = {
         name = don_border_conflict.2.a
-        
+		if = {
+			limit = {
+				tag = SOV
+			}
+			finalize_border_war = {
+				defender_win = no
+				attacker = 218
+				defender = 910
+			}
+			army_experience = 5
+		}
+		else_if = {
+			limit = { 
+				tag = DON
+			}
+			finalize_border_war = {
+				attacker_win = no
+				attacker = 218
+				defender = 910
+			}
+			DON = {
+				set_state_owner = 910
+				set_state_controller = 910
+			}
+		}
     }
 }
 country_event = {

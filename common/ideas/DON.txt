@@ -15,7 +15,7 @@ ideas = {
                 country_event = {
                     id = don.2
                     days = 0
-                    random_hours = 24
+                    hours = 7
                 }
             }
             available = {
