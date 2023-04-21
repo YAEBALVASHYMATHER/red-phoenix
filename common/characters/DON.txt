@@ -48,7 +48,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = social_liberalism
 			traits = {
 				
 			}
@@ -65,7 +65,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = nationalism_ideology
 			traits = {
 				
 			}
