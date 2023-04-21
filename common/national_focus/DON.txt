@@ -36,8 +36,8 @@ focus_tree = {
 	focus = {
         id = DON_end_of_last_cosack_unit
         icon = GFX_goal_unknown
-		prerequisite = {
-			focus = DON_fate_of_last_cosack_unit
+		mutually_exclusive = {
+			focus = DON_save_last_cosack_unit
 		}
         x = 10
         y = 1
@@ -54,8 +54,8 @@ focus_tree = {
 	focus = {
         id = DON_save_last_cosack_unit
         icon = GFX_goal_unknown
-		prerequisite = {
-			focus = DON_fate_of_last_cosack_unit
+		mutually_exclusive = {
+			focus = DON_end_of_last_cosack_unit
 		}
         x = 16
         y = 1

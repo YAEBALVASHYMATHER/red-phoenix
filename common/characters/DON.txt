@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = despotism_ideology
+			ideology = anarcho_monarchism
 			traits = {
 				
 			}
