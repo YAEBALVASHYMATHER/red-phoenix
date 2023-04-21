@@ -1,10 +1,10 @@
 ﻿l_russian:
 #Дон
 DON_democratic_party: "ПРР"
-DON_democratic_party_desc: "Партия Революционной Развязки"
+DON_democratic_party_long: "Партия Революционной Развязки"
 DON_communist_party: "ППН"
-DON_communist_party_desc: "Партия Пролетарской Ностальгии"
+DON_communist_party_long: "Партия Пролетарской Ностальгии"
 DON_nationalism_party: "ПДС"
-DON_nationalism_party_desc: "Партия Донского Суверенитета"
+DON_nationalism_party_long: "Партия Донского Суверенитета"
 DON_despotism_party: "ПАМИ"
-DON_despotism_party_desc: "Партия Анархо-Монархических Иллюзий"
+DON_despotism_party_long: "Партия Анархо-Монархических Иллюзий"
