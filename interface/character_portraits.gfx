@@ -108,7 +108,25 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
-		name = "ITA_rafaelo_costa"
-		texturefile = "gfx/leaders/ITA/ITA_costa.dds"
+		name = "GFX_SPB_egor_letov"
+		texturefile = "gfx/leaders/Naz-Bol/SPB_egor_letov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_MOS_eduard_limonov"
+		texturefile = "gfx/leaders/Naz-Bol/MOS_eduard_limonov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_IRK_aleksandr_dugin"
+		texturefile = "gfx/leaders/Naz-Bol/IRK_aleksandr_dugin.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_IRK_aleksandr_dugin_prison"
+		texturefile = "gfx/leaders/Naz-Bol/IRK_aleksandr_dugin_prison.dds"
 	}
 }
