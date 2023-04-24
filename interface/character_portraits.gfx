@@ -106,3 +106,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/YUG/YUG_Zoran_Lilich.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "ITA_rafaelo_costa"
+		texturefile = "gfx/leaders/ITA/ITA_costa.dds"
+	}
+}
